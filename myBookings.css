@@ -1,0 +1,119 @@
+* {
+padding:0;
+margin:0; 
+top:0;
+left:0;
+list-style: none;
+font-family: 'Arial light';
+color:teal;
+box-sizing: border-box;
+
+}
+body{
+  
+  align-items:center;
+  justify-content:center;
+  background-image:url(https://wallpapercave.com/wp/wp2264185.jpg);
+  
+
+}
+nav{
+
+  background:linear-gradient(to right,greenyellow,#07071c,#448844 );
+  border-style: groove;
+  text-align:center;
+
+}
+label.Logo{
+font-size: 40px;
+font-weight:bold;
+line-height:50px;
+margin: 0 100px;
+
+}
+
+nav ul{
+display:inline-flex;
+
+}
+
+nav ul a i{
+color:teal;
+margin: 5 20px;
+padding:10px;
+}
+form{ 
+text-align:center;
+font-size:10pt; 
+padding:0 10px;
+
+}
+
+h1{margin:40px;}
+select{
+	width: 14%;
+  height:10%;
+	padding:10px 0;
+  border-style:none; 
+	background-color:white;
+  font-size: 10pt;
+  justify-content: center;
+  
+	
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 15px;
+text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10pt;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+.button1 {background:linear-gradient(to right, yellowgreen,black,green);}
+
+
+p a i{
+   text-align: center;
+  margin:0 100px;
+  padding-bottom: 10px;
+}
+
+.column {
+
+  text-align:center;
+  padding: px;
+  font-weight:bold;
+  border-style:outset;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  background-color:  aliceblue;
+
+
+}
+
+.column img{
+  
+width:20%;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.div .bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+
+  }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  
+  background:linear-gradient(to right, yellowgreen,black,green);}
+
